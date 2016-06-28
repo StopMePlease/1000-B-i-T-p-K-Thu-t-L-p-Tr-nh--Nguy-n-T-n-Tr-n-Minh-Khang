@@ -62,3 +62,7 @@ Exe_28: Tinh tong cac uoc so nho hon so nguyen duong n
 Exe_29: Tim uoc so le lon nhat cua so nguyen duong n
 
 Exe_30: Kiem tra xem co phai la hoan thien hay k?
+
+Exe_31: Kiem tra so nguyen to
+
+Exe_31: Kiem tra so chinh phuong

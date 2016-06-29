@@ -65,4 +65,10 @@ Exe_30: Kiem tra xem co phai la hoan thien hay k?
 
 Exe_31: Kiem tra so nguyen to
 
-Exe_31: Kiem tra so chinh phuong
+Exe_32: Kiem tra so chinh phuong
+
+Exe_33: s(n) = sqrt(2 + sqrt(2 + sqrt( 2 + ... + sqrt(2 +sqrt(2)))))
+
+Exe_34: s(n) = sqrt(n + sqrt(n-1 + sqrt(n-2 + ...sqrt(2+ sqrt(1)))))
+
+Exe_35: s(n) = sqrt(1 + sqrt(2 + ...sqrt(n-1 + sqrt(n))))

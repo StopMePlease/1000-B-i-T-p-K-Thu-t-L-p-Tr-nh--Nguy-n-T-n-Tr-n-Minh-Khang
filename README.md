@@ -72,3 +72,15 @@ Exe_33: s(n) = sqrt(2 + sqrt(2 + sqrt( 2 + ... + sqrt(2 +sqrt(2)))))
 Exe_34: s(n) = sqrt(n + sqrt(n-1 + sqrt(n-2 + ...sqrt(2+ sqrt(1)))))
 
 Exe_35: s(n) = sqrt(1 + sqrt(2 + ...sqrt(n-1 + sqrt(n))))
+
+Exe_36: s(n) = sqrt(n! + sqrt((n-1)! + sqrt((n-2)! + ...sqrt(2!+ sqrt(1!)))))
+
+Exe_37: s(n) = (n + ((n-1) + ...(3 + 2^(1/2))^(1/3))^(1/(n-1)))^(1/n)
+
+Exe_38: s(n) = (n + ((n-1) + ...(2 + 1^(1/2))^(1/3))^(1/(n)))^(1/n + 1)
+
+Exe_39: s(n) = (n! + ((n-1)! + ...(2! + 1!^(1/2))^(1/3))^(1/(n)))^(1/n + 1)
+
+Exe_40: s(n) = sqrt(2 + sqrt(x^n + sqrt( x^(n-1) + ... + sqrt(x^2 +sqrt(x)))))
+
+Exe_41: s(n) = 1 / (1 + 1 / (1 + ... 1 / (1 + 1 / (1 + 1))))

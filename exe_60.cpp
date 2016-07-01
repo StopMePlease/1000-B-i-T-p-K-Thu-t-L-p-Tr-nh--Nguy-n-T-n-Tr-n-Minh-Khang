@@ -13,19 +13,20 @@ int main()
 	
 	int temp1;
 	int temp2;
+	int n2 = n / 10;
 	int check = 1;
 
-	while(n)
+	while(n && n2)
 	{
 		temp1 = n % 10;
-		n /= 10;
-		temp2 = n % 10;
+		temp2 = n2 % 10;
 		if(temp1 < temp2)
 		{
 			check = 0;
 			break;
 		}
 		n /= 10;
+		n2 /= 10;
 	}
 
 	if(check == 1)

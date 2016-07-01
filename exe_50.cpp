@@ -1,5 +1,5 @@
 /*
-	Tim chu so dau tien cua so nguyen duong n
+	Tim chu so dao nguoc cua so nguyen duong n
 */
 #include <iostream>
 #include <math.h>

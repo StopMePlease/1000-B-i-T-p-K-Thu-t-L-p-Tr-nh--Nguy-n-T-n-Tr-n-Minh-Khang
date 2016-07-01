@@ -84,3 +84,29 @@ Exe_39: s(n) = (n! + ((n-1)! + ...(2! + 1!^(1/2))^(1/3))^(1/(n)))^(1/n + 1)
 Exe_40: s(n) = sqrt(2 + sqrt(x^n + sqrt( x^(n-1) + ... + sqrt(x^2 +sqrt(x)))))
 
 Exe_41: s(n) = 1 / (1 + 1 / (1 + ... 1 / (1 + 1 / (1 + 1))))
+
+Exe_42: Cho n la so nguyen duong. Tim gia tri nguyen duong k lon nhat sao cho s(k) < n. [s(k) = 1 + 2 + ... +k]
+
+Exe_43: Dem so luong chu so cua so nguyen duong.
+
+Exe_44: Tinh tong cac chu so cua so nguyen duong n
+
+Exe_45: Tinh tich cac chu so cua so nguyen duong n
+
+Exe_46: Dem so luong chu so le cua so nguyen duong n
+
+Exe_47: Tinh tong cac chu so chan cua so nguyen duong n
+
+Exe_48: Tinh tich cac chu so le cua so nguyen duong n
+
+Exe_49: Tim chu so dau tien cua so nguyen duong n
+
+Exe_50: Tim chu so dao nguoc cua so nguyen duong n
+
+Exe_51: Tim chu so lon nhat cua so nguyen duong n
+
+Exe_52: Tim chu so nho nhat cua so nguyen duong n
+
+Exe_53: Dem so luong chu so lon nhat trong so nguyen duong n
+
+Exe_54: Dem so luong chu so nho nhat trong so nguyen duong n

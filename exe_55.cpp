@@ -1,5 +1,5 @@
 /*
-	Dem so luong chu so nho nhat trong so nguyen duong n
+	Dem so luong chu so dau tien cua so nguyen duong n
 */
 #include <iostream>
 #include <math.h>

@@ -110,3 +110,28 @@ Exe_52: Tim chu so nho nhat cua so nguyen duong n
 Exe_53: Dem so luong chu so lon nhat trong so nguyen duong n
 
 Exe_54: Dem so luong chu so nho nhat trong so nguyen duong n
+
+Exe_55: Dem so luong chu so dau tien cua so nguyen duong n
+
+Exe_56: Kiem tra so nguyen duong n co toan chu so le hay khong
+
+Exe_57: Kiem tra so nguyen duong n co toan chu so chan hay khong
+
+Exe_58: Kiem tra so nguyen duong n co phai la so doi xung hay khong
+
+Exe_59: (same as 58)
+
+Exe_60: Kiem tra cac chu so cua so nguyen duong n co tang dan tu trai qua phai hay khong
+
+Exe_61: Kiem tra cac chu so cua so nguyen duong n co giam dan tu trai qua phai hay khong
+
+Exe_62: Tim uoc chung lon nhat cua a va b
+
+Exe_63: Tim boi chung nho nhat cua a va b
+
+Exe_64: 
+
+Exe_65: 
+
+Exe_66:
+

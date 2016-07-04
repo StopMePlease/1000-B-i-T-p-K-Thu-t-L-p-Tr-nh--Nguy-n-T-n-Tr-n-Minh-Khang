@@ -154,3 +154,63 @@ Exe_74: s(x, n) = 1 - x + x^3/3! - x^5/5! + ... + (-1)^(n+1).x^(2*n+1)/(2*n+1)!
 Exe_75: Kiem tra so nguyen 4 byte co dang 2k hay k?
 
 Exe_76: Kiem tra so nguyen 4 byte co dang 3k hay k?
+
+Exe_77 -> Exe_96: done in book
+
+Exe_97: Viet chuong trinh nhap ba canh cua 1 tam giac, cho biet tam giac do la tam giac gi?
+
+Exe_98:
+
+Exe_99:
+
+Exe_100:
+
+Exe_101: Viet chuong trinh nhap vao thang nam. Cho biet thang do co bao nhieu ngay.
+
+Exe_102: viet chuong trinh nhap vap 1 ngay(ngay-thang-nam). Tinh ngay ke ngay vua nhap(ngay thang nam)
+
+Exe_103: viet chuong trinh nhap vap 1 ngay(ngay-thang-nam). Tinh ngay truoc ngay vua nhap(ngay thang nam)
+
+Exe_104: viet chuong trinh nhap vap 1 ngay(ngay-thang-nam). Tinh ngay do la ngay thu bao nhieu trong nam
+
+Exe_105: Hay in ra cach doc cua 1 so co 2 chu so
+
+Exe_106: Hay in ra cach doc cua 1 so co 3 chu so
+
+Exe_107: 
+
+Exe_108:
+
+Exe_109: In ra bang cuu chuong
+
+Exe_110:
+
+Exe_111: Ve hinh
+        a.            *
+                  *   *   *
+              *   *   *   *   *
+          *   *   *   *   *   *   *
+        b.            *
+                  *       *
+              *               *
+          *   *   *   *   *   *   *
+        c.  *
+            *   *
+            *   *   *
+            *   *   *   *
+        d.  *
+            *   *
+            *       *
+            *   *   *   *
+ 
+Exe_112: Ve hinh chu nhat co kich thuoc mxn
+        a.  *   *   *   *   *   *   *
+            *   *   *   *   *   *   *
+            *   *   *   *   *   *   *
+            *   *   *   *   *   *   *
+        
+        b.  *   *   *   *   *   *   *
+            *                       *
+            *                       *
+            *   *   *   *   *   *   *
+        

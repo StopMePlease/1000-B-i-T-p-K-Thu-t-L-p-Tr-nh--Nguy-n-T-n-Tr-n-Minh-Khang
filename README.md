@@ -222,6 +222,7 @@ Exe_111: Ve hinh
             
  
 Exe_112: Ve hinh chu nhat co kich thuoc mxn
+
         a.  *   *   *   *   *   *   *
         
             *   *   *   *   *   *   *

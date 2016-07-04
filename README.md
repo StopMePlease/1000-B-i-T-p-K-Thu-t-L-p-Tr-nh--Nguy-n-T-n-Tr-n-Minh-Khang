@@ -186,7 +186,8 @@ Exe_109: In ra bang cuu chuong
 Exe_110:
 
 Exe_111: Ve hinh
-        a.            *
+        a.
+                      *
         
                   *   *   *
                   

@@ -1,5 +1,5 @@
 /*
-	Viet chuong trinh nhap vao thang nam. Cho biet thang do co bao nhieu ngay.
+	 viet chuong trinh nhap vap 1 ngay(ngay-thang-nam). Tinh ngay ke ngay vua nhap(ngay thang nam)
 */
 #include <iostream>
 
@@ -7,83 +7,72 @@ using namespace std;
 
 int main()
 {
-	int x, y;
-	cout << "Input month: ";
+	int x, y, z;
+	cout << "Input day: ";
 	cin >> x;
-	cout << "Input year: ";
+	cout << "Input month: ";
 	cin >> y;
+	cout << "Input year: ";
+	cin >> z;
 
-	switch (x)
+	int check = 0;
+	// truong hop dac biet, vua la nam nhuan vua la thang 2
+	if((z % 400 == 0) || (z % 4 == 0 && z % 100 != 0 ))
 	{
-	case 1:
+		check = 1;
+	}
+
+	if(y == 1 || y == 3 || y == 5 || y == 7 || y == 8 || y == 10)
+	{
+		if(x == 31)
 		{
-			cout << "31";
-			break;
+			x = 1;
+			y++;
 		}
-	case 2:
+		else
 		{
-			if((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0 ))
+			x++;
+		}
+	}
+	else if(y == 4 || y == 6 || y == 9 || y == 11)
+	{
+		if(x == 30)
+		{
+			x = 1;
+			y++;
+		}
+		else
+		{
+			x++;
+		}
+	}
+	else if(y == 2)
+	{
+		if(check == 1)
+		{
+			if(x == 29)
 			{
-				cout << "29";
+				x = 1;
+				y++;
 			}
 			else
 			{
-				cout << "28";
+				x++;
 			}
-			break;
 		}
-	case 3:
+		else if(x == 28)
 		{
-			cout << "31";
-			break;
+			x = 1;
+			y++;
 		}
-	case 4:
-		{
-			cout << "30";
-			break;
-		}
-	case 5:
-		{
-			cout << "31";
-			break;
-		}
-	case 6:
-		{
-			cout << "30";
-			break;
-		}
-	case 7:
-		{
-			cout << "31";
-			break;
-		}
-	case 8:
-		{
-			cout << "31";
-			break;
-		}
-	case 9:
-		{
-			cout << "30";
-			break;
-		}
-	case 10:
-		{
-			cout << "31";
-			break;
-		}
-	case 11:
-		{
-			cout << "30";
-			break;
-		}
-	case 12:
-		{
-			cout << "31";
-			break;
-		}
-	default:
-		break;
 	}
+	if(y == 12 && x == 31)
+	{
+		y = 1;
+		x = 1;
+		z++;
+	}
+
+	cout << x << "/" << y << "/" << z;
 	return 0;
 }
